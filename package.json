@@ -1,0 +1,20 @@
+{
+  "name": "todo_api",
+  "version": "1.0.0",
+  "description": "api de tarefas.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Marcelo Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.18",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
